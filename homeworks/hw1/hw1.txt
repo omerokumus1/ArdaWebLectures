@@ -1,0 +1,8 @@
+Adsız.png gibi bir haber sayfası yaz. Metinler anlamlı olmak zorunda değil. Bu ekranı oluştururken şunları yap
+* img, h1, h2, p taglerini kullan
+* img için alt ve title attribute'lerini kullan
+* In-app link ver (anlamlı olmasına gerek yok)
+* "Haberin kaynağına gitmek için tıklayınız" şeklinde yazı ekleyip tıklayınız yazısını link yap ve herhangi bir web sayfasına yönlendir
+Anlattıklarımla birlikte bunu yapabilirsin. Ekstra şeyler kullanmak istersen de ekleyebilirsin
+
+- Ödevi söylediğim yapılarla yapabilirsin. Ekstra güzelleştirme yapmak serbest
