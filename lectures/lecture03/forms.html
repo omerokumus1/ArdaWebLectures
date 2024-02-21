@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Forms</title>
+  </head>
+  <body>
+    <!-- Form ile kullanıcıdan veri alınır -->
+    <!-- https://www.w3schools.com/html/html_forms.asp -->
+    <!--
+    {
+      "username": string,
+      "password": string,
+      "languages": string,
+      "remember": false,
+      "age": 0,
+    }
+languages: "tr", "en" -->
+
+    <!-- hash: 1234 -> xyz  -->
+
+    <form action="/login" method="post">
+      <fieldset>
+        <legend>Personel Info</legend>
+        <label for="username">Kullanıcı Adı</label>
+        <input
+          type="text"
+          name="username"
+          placeholder="Kullanıcı Adı"
+          autofocus
+        />
+        <br />
+        <br />
+        <label for="password">Şifre</label>
+        <input type="password" name="password" placeholder="Şifre" />
+        <br />
+        <br />
+        <label for="remember">Beni hatırla</label>
+        <input type="checkbox" name="remember" />
+      </fieldset>
+
+      <br /><br />
+      <input type="color" name="color" />
+      <br /><br />
+      <input type="date" name="date" />
+      <br /><br />
+      <input type="email" name="email" />
+      <br /><br />
+      <!-- <input type="file" name="file" required />
+      <br /><br />
+      <input type="number" name="number" required /> -->
+      <br /><br />
+      <input type="range" name="range" />
+      <br /><br />
+      <input type="image" name="image" />
+
+      <br /><br />
+      <label for="languages">Türkçe</label>
+      <input type="radio" name="languages" value="tr" />
+      <label for="languages">İngilizce</label>
+      <input type="radio" name="languages" value="en" />
+
+      <br /><br />
+      <label for="cars">Bir araba seçin</label>
+      <select name="cars" size="3" multiple>
+        <option value="volvo">Volvo</option>
+        <option value="saab">Saab</option>
+        <hr />
+        <option value="mercedes">Mercedes</option>
+        <option value="audi" selected>Audi</option>
+        <option value="opel" selected>Opel</option>
+      </select>
+      <br /><br />
+      <textarea
+        name="message"
+        rows="10"
+        cols="30"
+        placeholder="Your message"
+      ></textarea>
+      <br /><br />
+      <textarea name="message2" style="width: 200px; height: 300px"></textarea>
+
+      <br /><br />
+      <button type="button">Click me</button>
+      <br />
+      <br />
+      <br />
+      <br />
+      <input type="submit" value="Giriş yap" />
+      <input type="reset" value="Clear" />
+    </form>
+
+    <fieldset>
+      <legend>Personel Info</legend>
+      <label for="username">Kullanıcı Adı</label>
+      <input type="text" name="username" placeholder="Kullanıcı Adı" />
+      <br />
+      <br />
+      <label for="password">Şifre</label>
+      <input type="password" name="password" placeholder="Şifre" />
+      <br />
+      <br />
+      <label for="remember">Beni hatırla</label>
+      <input type="checkbox" name="remember" />
+    </fieldset>
+
+    <form>
+      <input list="browsers" name="browser" />
+      <datalist id="browsers">
+        <option value="Internet Explorer" />
+        <option value="Firefox" />
+        <option value="Chrome" />
+        <option value="Opera" />
+        <option value="Safari" />
+      </datalist>
+    </form>
+  </body>
+</html>
