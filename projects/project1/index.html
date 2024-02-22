@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Web Page</title>
+  </head>
+  <body>
+    <header>
+      <h1>My Goals for the Year</h1>
+      <hr />
+      <nav>
+        <ul>
+          <li>
+            <a href="#learning_html">Learning HTML</a>
+            <ul>
+              <li>
+                <a href="#daily_schedule">Daily Schedule</a>
+              </li>
+              <li>
+                <a href="#example_learning">Example Learning</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="#planning_vacation">Planning Vacation</a>
+            <ul>
+              <li>
+                <a href="#places_to_go">Places to Go</a>
+              </li>
+              <li>
+                <a href="#places_to_avoid">Places to Avoid</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <hr />
+
+    <!-- main tag'i sayfanın ana içeriğini belirtir.
+    Birden fazla main olabilir -->
+    <main>
+      <!-- article tag'i içeriği gruplar -->
+      <article id="html">
+        <h2 id="learning_html">
+          <a href="#learning_html">I am ready to learn HTML</a>
+        </h2>
+        <p>This is my first web page</p>
+
+        <!-- section tag'i içeriği gruplar, article tag'inden daha küçük gruplar
+        article içinde olmak zorunda değildir -->
+        <section>
+          <h3 id="daily_schedule">
+            <a href="#daily_schedule">My Daily Schedule</a>
+          </h3>
+          <p>Let me tell you how:</p>
+          <ol>
+            <li>I learn more about web developing</li>
+            <li>I plan out my schedule</li>
+            <li>
+              I use resources from
+              <abbr title="Mozilla Developer Network">MDN</abbr>
+            </li>
+          </ol>
+          <aside>
+            <details>
+              <summary>
+                Guess the <mark>number of hours</mark> I code per day
+                <strong>Hint:</strong> It's more than 2 hours
+              </summary>
+              <p>
+                I start at <time datetime="08:00">8 am</time> and I write code
+                for <time datetime="PT3H">3 hours</time> every morning
+              </p>
+            </details>
+          </aside>
+          <br />
+          <table>
+            <caption>
+              My Schedule
+            </caption>
+            <thead>
+              <tr>
+                <th>&nbsp;</th>
+                <th>Time</th>
+                <th>Activity</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th>Morning</th>
+                <td>
+                  <time datetime="08:00">8 am</time> -
+                  <time datetime="11:00">11 am</time>
+                </td>
+                <td>Write Code</td>
+              </tr>
+              <tr>
+                <th>Break</th>
+                <td>
+                  <time datetime="11:00">11 am</time> -
+                  <time datetime="12:00">12 pm</time>
+                </td>
+                <td>Eat Lunch</td>
+              </tr>
+              <tr>
+                <th>Afternoon</th>
+                <td>
+                  <time datetime="12:00">12 pm</time> -
+                  <time datetime="17:00">5 pm</time>
+                </td>
+                <td>Study for other courses</td>
+              </tr>
+              <tr>
+                <th>Evening</th>
+                <td>All Other Time</td>
+                <td>Free Time</td>
+              </tr>
+              <tr>
+                <th>Night</th>
+                <td>&nbsp;</td>
+                <td>Sleep</td>
+              </tr>
+            </tbody>
+            <tfoot>
+              <tr>
+                <td colspan="3">
+                  And that's what I do every day, 5 days a week. Just eat,
+                  sleep, code, and recharge!
+                </td>
+                <!-- <td><strong>Extra</strong></td> -->
+              </tr>
+            </tfoot>
+          </table>
+        </section>
+
+        <section>
+          <h3 id="example_learning">
+            <a href="#example_learning">Example Learning</a>
+          </h3>
+
+          <p>
+            Here is what I learned on
+            <time datetime="2022-09-23">23 <sup>rd</sup> September, 2022</time>
+          </p>
+          <ul>
+            <li>
+              I can write numbers as subscripts via
+              <code>&lt;sub&gt;</code> element. For example, H<sub>2</sub>O
+            </li>
+            <li>
+              <p>Here is a JS code:</p>
+              <pre><code>const para = document.querySelector('p')</code></pre>
+              Here, <var>para</var> is a constant variable
+            </li>
+            <li>
+              Apart from coding, I learned something different. Atatürk says
+              <blockquote cite="https://vikipedia.com">
+                İstikbal Göklerdedir.
+              </blockquote>
+            </li>
+          </ul>
+        </section>
+      </article>
+
+      <article id="vacation">
+        <h2 id="planning_vacation">
+          <a href="#planning_vacation"></a>
+        </h2>
+        <p>I've been working hard and <em>really need a getaway</em></p>
+        <p>
+          I live in <abbr title="Kansas">KN</abbr> so I want to visit a beach.
+        </p>
+        <section>
+          <h3 id="places_to_go">
+            <a href="#places_to_go">Places I'd like to Visit</a>
+          </h3>
+          <ul>
+            <li>
+              <p>
+                I've heard good things about the Caribbean
+                <figure>
+                  <img
+                    src="images/caribbean.jpeg"
+                    alt="Caribbean"
+                    title="A place I want to visit"
+                  />
+                  <figcaption>Caribbean Beach</figcaption>
+                </figure>
+              </p>
+            </li>
+            <li>I saw Hawaii's clean water.</li>
+            <li>Additionally, Dubai's huge towers are attractive.</li>
+            <li>
+              <dl>
+                <dt>I've heard good things about going here:</dt>
+                <dd>
+                  <address>
+                    123 Main St<br />
+                    City, State 12345<br />
+                    Country
+                  </address>
+                  <figure>
+                    <img
+                      src="images/vacation.jpeg"
+                      alt="Cancun Vacation"
+                      title="Very beautiful place"
+                      width="400"
+                      height="270"
+                      loading="lazy"
+                    />
+                    <!--
+                    loading="eager" : resmi hemen yükle (default)
+                    loading="lazy" : resmi ekrana geleceği zaman yükle
+                    -->
+                    <figcaption>A Caribbean Vacation Image</figcaption>
+                  </figure>
+                </dd>
+              </dl>
+            </li>
+          </ul>
+        </section>
+      </article>
+    </main>
+  </body>
+</html>
