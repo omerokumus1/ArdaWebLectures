@@ -1,0 +1,18 @@
+
+- CSS: Cascading Style Sheets
+    -> Cascading: Yukarıdan aşağı etki oluşturmak anlamına gelir.
+        -> Yukarıdan aşağı: Parent elementteki özellikler child elementlere geçer (Tüm özellikler değil, bazıları geçerli olur).
+
+- Ruleset: Özelliklerin kümesini temsil eder. {} arasına yazılır
+
+- Selector: Özelliklerin hangi elemente uygulanacağını belirler. Element selector, Class selector, ID Selector, Universal selector
+    -> Element Selector: Elementin adı ile seçilir.
+        - Örnek: p { color: red; } -> Tüm p elementlerinin yazı rengi kırmızı olur.
+
+    -> Class Selector: . ile başlar. Özel ruleset tanımlar. İstenilen HTML elementlerine eklenilerek bu ruleset uygulanır. Sadece uygulanan elementlerde geçerli olur
+        - Örnek: .red { color: red; } -> class="red" olan tüm elementlerin yazı rengi kırmızı olur.
+
+    -> ID Selector: # ile başlar. Özel ruleset tanımlar. Sadece bir elemente uygulanır -ID'si eşleşen element.
+        - Örnek: #red { color: red; } -> id="red" olan elementin yazı rengi kırmızı olur.
+
+    -> Universal Selector: * ile başlar. Tüm elementlerde geçerli olur.
