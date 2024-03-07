@@ -60,3 +60,15 @@
 .mixed-border-div2 {
   border-style: solid dotted;
 }
+
+.bottom-border-p {
+  border-bottom: 1px solid black;
+}
+
+.bottom-border-input {
+  border-style: none;
+  border-bottom: 1px solid black;
+}
+input:focus {
+  outline: none;
+}
