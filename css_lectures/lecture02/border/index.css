@@ -1,0 +1,62 @@
+.basic-div {
+  width: 200px;
+  height: 200px;
+  border: 2px solid red;
+}
+
+.rounded-div {
+  border-radius: 12px;
+}
+
+.circle1 {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+}
+
+.circle2 {
+  border-radius: 50%;
+}
+
+.v-ellips {
+  width: 200px;
+  height: 300px;
+  border-radius: 50%;
+}
+
+.h-ellips {
+  width: 300px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.leaf-div {
+  width: 150px;
+  height: 200px;
+  /* Sol üst ve sağ alt 6px olur, diğerleri 12px olur. */
+  border-radius: 6px 100px;
+}
+
+.ragged-div {
+  border-radius: 6px 12px 24px 48px; /* Sol üst, sağ üst, sağ alt, sol alt */
+}
+
+.dotted-div {
+  border-style: dotted;
+}
+
+.dashed-div {
+  border-style: dashed;
+}
+
+.double-div {
+  border-style: double;
+}
+
+.mixed-border-div {
+  border-style: solid dotted dashed double;
+}
+
+.mixed-border-div2 {
+  border-style: solid dotted;
+}
