@@ -1,0 +1,46 @@
+.basic-div {
+  width: 200px;
+  height: 200px;
+  border: 2px solid red;
+}
+
+.bg-color {
+  background-color: rgb(12, 17, 111);
+  background-color: bisque;
+  background-color: #ff0000;
+  background-color: #0f0;
+  background-color: #0000ff77;
+  background-color: #00f3;
+  background-color: rgba(12, 17, 111, 0.4);
+
+  background-color: rgb(137, 43, 226);
+  opacity: 0.6;
+}
+
+.bg-image {
+  background-image: url('bg1.jpg');
+  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position: bottom;
+  background-position: bottom right;
+}
+
+.bg-image2 {
+  width: 500px;
+  height: 300px;
+  background-image: url('bg2-v.png');
+  background-repeat: repeat-x;
+}
+
+.bg-image3 {
+  background-image: url('shuttle.png');
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-position: center;
+  background-position: center left;
+  background-position: left;
+  background-position: bottom left;
+  background-position: top left;
+}
