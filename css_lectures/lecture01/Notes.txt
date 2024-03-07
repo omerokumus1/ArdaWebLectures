@@ -5,7 +5,7 @@
 
 - Ruleset: Özelliklerin kümesini temsil eder. {} arasına yazılır
 
-- Selector: Özelliklerin hangi elemente uygulanacağını belirler. Element selector, Class selector, ID Selector, Universal selector
+- Selector: Özelliklerin hangi elemente uygulanacağını belirler. Element selector, Class selector, ID Selector, Universal selector,  Grouping Selector
     -> Element Selector: Elementin adı ile seçilir.
         - Örnek: p { color: red; } -> Tüm p elementlerinin yazı rengi kırmızı olur.
 
@@ -16,3 +16,6 @@
         - Örnek: #red { color: red; } -> id="red" olan elementin yazı rengi kırmızı olur.
 
     -> Universal Selector: * ile başlar. Tüm elementlerde geçerli olur.
+
+    ->  Grouping Selector: Birden fazla HTML elementine aynı özellikleri eklemek istediğimizde kullanılır. Element selector, class selector ve id selector için kullanılabilir
+        - Örnek: h1, h2, h3 { color: 'blue'}

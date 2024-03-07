@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index2.css" />
     <link rel="stylesheet" href="index.css" />
     <title>Document</title>
   </head>
@@ -30,7 +31,7 @@
     </p>
 
     <!-- Class selector vs ID selector
-????
+      ID Selector, class selector'den daha önceliklidir. Sıralama farketmez.
     -->
     <p id="blue-bg" class="yellow-bg">
       Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro ex rem
@@ -38,6 +39,35 @@
       architecto. Nam ex omnis deserunt rerum quidem libero provident.
     </p>
 
+    <p class="yellow-bg" id="blue-bg">
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro ex rem
+      vitae veniam minus aperiam culpa nostrum, officiis, enim quas asperiores
+      architecto. Nam ex omnis deserunt rerum quidem libero provident.
+    </p>
+
     <!-- NEXT: Multiple class selectors -->
+    <p class="green-bg turq-bg">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum nobis
+      excepturi reprehenderit expedita quas. Eius veritatis eligendi cumque,
+      fugit aspernatur enim! Harum hic, necessitatibus delectus maxime facere ut
+      veritatis enim.
+    </p>
+
+    <!-- CSS Eklenme sırası önemlidir. Aynı özelliklerin farklı değerleri varsa en son eklenen geçerli olur. -->
+    <div class="my-div"></div>
+
+    <!-- Grouping Selector Test -->
+    <h1>H1</h1>
+    <h2>H2</h2>
+    <h3>H3</h3>
+
+    <div id="div1"></div>
+    <div id="div2"></div>
+
+    <div class="div3"></div>
+    <div class="div4"></div>
+
+    <div class="div5"></div>
+    <div id="div6"></div>
   </body>
 </html>
